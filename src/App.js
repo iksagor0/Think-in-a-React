@@ -1,7 +1,13 @@
 // import AddEmoji from "./Inheritance/AddEmoji";
-import AddEmoji from "./Composition/AddEmoji";
-import Text from "./Composition/Text";
 
+// import AddEmoji from "./Composition/AddEmoji";
+// import Text from "./Composition/Text";
+
+import AddEmoji from "./Composition_two/AddEmoji";
+import Bracket from "./Composition_two/Bracket";
+import Text from "./Composition_two/Text";
+
+// STYLES
 const styles = {
   fontSize: 25,
   fontWeight: 700,
@@ -15,7 +21,16 @@ function App() {
       {/* <AddEmoji /> */}
 
       {/* === Composition === */}
-      <AddEmoji>{(emoji) => <Text emoji={emoji} />}</AddEmoji>
+      {/* <AddEmoji>{(emoji) => <Text emoji={emoji} />}</AddEmoji> */}
+
+      {/* === Composition Two=== */}
+      <Text>
+        {(text) => (
+          <AddEmoji text={text}>
+            {(textWithEmoji) => <Bracket textWithEmoji={textWithEmoji} />}
+          </AddEmoji>
+        )}
+      </Text>
     </div>
   );
 }
