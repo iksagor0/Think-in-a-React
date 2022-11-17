@@ -11,8 +11,11 @@
 // import Maldives from "./RenderProps/Maldives";
 // import Text from "./RenderProps/Text";
 
-import Bangladesh from "./RenderPropsTwo/Bangladesh";
-import Text from "./RenderPropsTwo/Text";
+// import Bangladesh from "./RenderPropsTwo/Bangladesh";
+// import Text from "./RenderPropsTwo/Text";
+
+import ClickCounter from "./HOC/ClickButton";
+import HoverCount from "./HOC/HoverCount";
 
 // STYLES
 const styles = {
@@ -44,7 +47,10 @@ function App() {
       <Text render={(text) => <Maldives text={text} />} /> */}
 
       {/* === RENDER PROPS 2 === */}
-      <Bangladesh render={(country) => <Text country={country} />} />
+      {/* <Bangladesh render={(country) => <Text country={country} />} /> */}
+
+      <ClickCounter />
+      <HoverCount />
     </div>
   );
 }
