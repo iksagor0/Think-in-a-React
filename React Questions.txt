@@ -1,0 +1,80 @@
+----- Basics -----
+1. What is React?
+2. Why React? What are the most crucial advantages of using React?
+3. How React Works?
+4. What are the features of React?
+5. What is JSX? What is Babel? Can browsers read JSX directly?
+6. What is the virtual DOM? Explain the working of Virtual DOM.
+7. Why use React instead of other frameworks, like Angular? Differentiate JS Library and Framework.
+8. What is MVC? Describe Flux vs MVC?
+9. What is React Element? Explain it.
+
+
+
+----- Components -----
+1. What are the Components in React?
+2. Differentiate  Class and Functional components? Why Class and why Functional? What you prefer?
+3. What is Constructor, Inheritance, This and getInitialState in React?
+4. When is it important to pass props to super(), and why?
+5. Differentiate between stateful and stateless components.
+6. Controlled vs Uncontrolled components?
+7. What is the difference between Element and Component?
+8. What is a higher-order component in React? What can you do with HOC?
+9. What is the use of render() in React?
+10. What is conditional rendering in React?
+11. Inheritance vs Composition
+12. Render Props
+
+
+
+----- Lifecycle Methods -----
+01. Explain the lifecycle methods of components. Explain componentWillMount,componentDidMount, componentDidCatch,
+componentWillReceiveProps, shouldComponentUpdate, componentWillUpdate componentDidUpdate, componentWillUnmount
+
+
+
+
+
+----- Data Binding -----
+1. What is a state in React?
+2. What are props in React? What is prop drilling and how can you avoid it?
+3. What are the differences between state and props?
+4. What is Bi-directional and Uni-directional data-binding?
+5. What is API?
+6. Context API.
+7. What is Redux? How it works?
+
+
+
+
+----- HOOKS -----
+1. What are hooks in React? Advantages of using React Hooks?
+2. Explain useState, useEffect,useReducer, useRef, useMemo, useCallback hooks. 
+3. What is Custom Hooks? reason of using Custom Hook.
+4. What is side-effect in React? How it be handle?
+
+
+
+
+----- Router, Events, Styling -----
+1. What is an event and synthetic events in React?
+2. What do you understand by refs in React?
+3. What is React Router? Differentiate between Conventional Router and React Router.
+4. How do you style React components? What are Styled Components? Explain the use of CSS modules in React.
+5. Some styling libraries I used.
+
+
+
+----- Small Questions -----
+1. What are the biggest limitations of React?
+2. What is the difference between the ES6 and ES5 standards?
+3. What is an arrow function and how is it used in React?
+4. What are fragments? Why are fragments better than container divs?
+5. What is StrictMode in React?
+6. Why is there a need for using keys in Lists?
+7. What is a Pure Function?
+8. What is React Fiber?
+
+
+
+Note: 41 Main Questions. With all over it will 60+.
