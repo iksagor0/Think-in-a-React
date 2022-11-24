@@ -14,6 +14,8 @@
 // import Bangladesh from "./RenderPropsTwo/Bangladesh";
 // import Text from "./RenderPropsTwo/Text";
 
+import React from "react";
+import UserDetails from "./Components/UserDetails";
 import ClickCounter from "./HOC/ClickButton";
 import HoverCount from "./HOC/HoverCount";
 
@@ -51,6 +53,7 @@ function App() {
 
       <ClickCounter />
       <HoverCount />
+      <UserDetails />
     </div>
   );
 }
