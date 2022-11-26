@@ -16,7 +16,6 @@ const reducer = (state, action) => {
 
 export default function BasicConsept() {
   const [count, dispatch] = useReducer(reducer, initialState);
-
   return (
     <div>
       <h5>{count}</h5>
