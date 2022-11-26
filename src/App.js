@@ -1,5 +1,6 @@
 import React from "react";
-import UserDetails from "./Components/UserDetails";
+// import UserDetails from "./Components/UserDetails";
+import BasicConsept from "./useReducer/BasicConsept";
 
 // STYLES
 const styles = {
@@ -11,7 +12,8 @@ const styles = {
 function App() {
   return (
     <div style={styles} className="App">
-      <UserDetails />
+      {/* <UserDetails /> */}
+      <BasicConsept />
     </div>
   );
 }
