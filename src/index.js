@@ -1,20 +1,15 @@
-import React from "react";
+import React, { useReducer } from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
 import { UserContext } from "./Context/UserContext";
 
-const user = {
-  username: "iksagor0",
-  role: "admin",
-  email: "iksagor@gmail.com",
-};
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
+// eslint-disable-next-line no-unused-vars
+
 root.render(
   <React.StrictMode>
-    <UserContext.Provider value={user}>
       <App />
-    </UserContext.Provider>
   </React.StrictMode>
 );
 
